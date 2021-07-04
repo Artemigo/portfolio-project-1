@@ -167,6 +167,7 @@
 #main__img {
     height: 80%;
     width: 80%;
+    border-radius: 8px;
 }
 
 /* Mobile Responsive*/
@@ -387,4 +388,48 @@ textarea {
         font-size: 2rem;
         margin-top: 3rem;
     }
+}
+
+/* About CSS */
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 50vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+    .row1, .row2 {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 50vh;
 }
