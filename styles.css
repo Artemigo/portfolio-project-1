@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Kumbh Sans, sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .navbar {
@@ -33,8 +33,6 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
 }
 
 .navbar__menu {
@@ -82,13 +80,24 @@
 }
 
 .button:hover {
-    background: blue;
+    background: rgb(103, 228, 134);
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
     color:#f77062;
     transition: all 0.3 ease;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
 }
 
 /*Hero Section CSS */
@@ -124,4 +133,191 @@
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
+    color: white;
+}
+
+.main__btn {
+    font-size: 1rem;
+    padding: 14px 32px;
+    background: green;
+    border: 0;
+    border-radius: 4px;
+    color:white;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+}
+
+.main__btn:hover {
+    background: rgb(103, 228, 134);
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+#main__img {
+    height: 80%;
+    width: 80%;
+}
+
+/* Mobile Responsive*/
+@media screen and (max-width: 768px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .main__content {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .main__content h2 {
+        font-size: 3rem;
+
+    }
+
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main__content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .main__content h2 {
+        font-size: 2rem;
+
+    }
+
+    .main__content p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .main__btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+}
+
+/* Footer CSS */
+.footer__container {
+    background-color: #141414;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__icon--link {
+    color:white;
+}
+
+.social__media {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social__media--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin:40px auto 0 auto;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+.website__rights {
+    color: white;
+}
+
+
+/* Contacts */
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgb(216, 229, 238);
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form--group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form--group input,
+.form--group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(194, 190, 190);
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit__btn{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    background: green;
+    color:white
+}
+
+.submit__btn:hover{
+    background-color:rgb(103, 228, 134) ;
 }
