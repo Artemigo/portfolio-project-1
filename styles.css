@@ -298,7 +298,6 @@ textarea {
     margin-top: 10px;
     background: green;
     color:white;
-    transition: .3s ease;
 }
 
 .success__btn a {
@@ -312,7 +311,7 @@ textarea {
     background: rgb(103, 228, 134);
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .success__container {
         display: grid;
         grid-template-columns: auto;
@@ -334,7 +333,7 @@ textarea {
         font-size: 2rem;
         margin-top: 3rem;
     }
-}
+}*/
 
 /* About CSS */
 .row1, .row2 {
