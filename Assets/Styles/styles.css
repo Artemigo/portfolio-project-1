@@ -5,6 +5,10 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+    background-color: #141414;
+}
+
 .navbar {
     background: #131313;
     height: 80px;
@@ -127,9 +131,10 @@
 
 .main__content p {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     color: white;
+    line-height: 1.6;
 }
 
 .main__btn {
@@ -168,6 +173,9 @@
 
 /* Footer CSS */
 .footer__container {
+    position:absolute;
+    bottom: 20px;
+    width: 100%;
     background-color: #141414;
     padding: 5rem 0;
     display: flex;
@@ -311,7 +319,7 @@ textarea {
     background: rgb(103, 228, 134);
 }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .success__container {
         display: grid;
         grid-template-columns: auto;
@@ -400,6 +408,18 @@ ul li {
     image-resolution: 10px;
 }
 
+.notfound__container {
+    text-align: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.notfound__content h1 {
+    color: red;
+
+}
+
+
 /*@media screen and (max-width: 768px) {
     .row1 .row2 {
         display: grid;
@@ -414,3 +434,9 @@ ul li {
         height: 50vh;
     }
 }*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Varela+Round&display=swap');
+
+body {
+  font-family: "Tajawal", Arial;
+}
