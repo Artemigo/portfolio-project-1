@@ -62,15 +62,6 @@ This site will be target future employers, that are interested in me for any pos
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
 ### Validator Testing 
 
 - HTML
@@ -80,7 +71,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+-----
 
 ## Deployment
 
@@ -102,6 +93,8 @@ The live link can be found here - https://artemigo.github.io/portfolio-project-1
 - The text for the Home page was taken from [Google fonts](https://fonts.google.com/specimen/Kumbh+Sans)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Instructions on how to implement @media were taken from [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
+- Parts of code for cards for the about page taken from [Codepen](https://codepen.io/arti2002/pen/LYRxeOG)
+- Instructions for CSS were taken from [W3Schools](https://www.w3schools.com/css/)
 
 ### Media
 
@@ -112,21 +105,3 @@ The live link can be found here - https://artemigo.github.io/portfolio-project-1
 [CI logo](https://avatars.githubusercontent.com/u/16867170?s=280&v=4),
 [Country flags](https://www.worldatlas.com/r/w768/upload/9e/9d/d9/country-flags-green.jpg),
 [LaserMaxx logo](https://lazermax.lv/wp-content/uploads/2016/11/lazermax-logo.png)
-
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 

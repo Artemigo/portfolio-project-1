@@ -402,8 +402,8 @@ ul li {
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 5em auto;
-	height: 350px;
-	width: 700px;
+	height: 400px;
+	width: 1000px;
     line-height: 1.6;
 }
 
@@ -474,7 +474,6 @@ ul li {
 
 .info {
     background: rgba(27, 26, 26, 0.9);
-    font-family: 'Bree Serif', serif;
     transition: all 0.3s ease-out;
     transform: translateX(-100%);
     position: absolute;
@@ -506,7 +505,7 @@ ul li {
         border-radius: 5px;
         overflow: scroll;
         margin: 5em auto;
-        height: 350px;
+        height: 250px;
         width: auto;
     }
 
@@ -564,7 +563,6 @@ ul li {
 
     .info {
         background: rgba(27, 26, 26, 0.9);
-        font-family: 'Bree Serif', serif;
         transition: all 0.3s ease-out;
         transform: translateX(-100%);
         position: absolute;
