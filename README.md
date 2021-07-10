@@ -1,10 +1,10 @@
 # My Portfolio
 
-My Portfolio is a website that shows my resume in a more interactive way that is accessible to wide range of people. 
+My Portfolio is a website that shows my resume in a more interactive way that is accessible to wider audience. 
 
 This site will be target future employers, that are interested in me for any position that I might apply in the future.
 
-![Responsice Mockup]()
+![Responsice Mockup](./Assets/readme_img/mockup.png)
 
 ## Features 
 
@@ -15,46 +15,46 @@ This site will be target future employers, that are interested in me for any pos
   - Featured on all three pages and download button, the full responsive navigation bar includes links Home page, About, Contact and Download the CV page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar]()
+![Nav Bar](./Assets/readme_img/navbar.png)
 
 - __Home page__
 
   - The home page gives a breaf introduction of myself, my current position and responsibilities. 
   - Additionally there's a photo of myself, so the possible recruiters have a visual representation of who they might hire, as well as a button to proceed forward to see my resume.
 
-![Home]()
+![Home](./Assets/readme_img/main.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites to either contact me or see my work. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media such as telegram or LinkedIn.
 
-![Footer]()
+![Footer](./Assets/readme_img/footer.png)
 
 - __About page__
 
   - The about section will provide the user with additional information such as my work experience and education.
   - This section is valuable to the user as they will be able to easily see in an intercative way what were my acomplishements.
 
-![About]()
+![About](./Assets/readme_img/about.png)
 
 - __Contact page__
 
   - This page will allow the user to get in touch with me by sending a direct message to my email inbox.  
 
-![Contact]()
+![Contact](./Assets/readme_img/contact.png)
 
 - __Success page__
 
   - This page will notify the user that his or her message was successfuly delivered.  
 
-![Success]()
+![Success](./Assets/readme_img/success.png)
 
 - __404 page__
 
   - This page will notify the user that the page he was looking for is missing or does not exist.  
 
-![404]()
+![404](./Assets/readme_img/404.png)
 
 ### Features Left to Implement
 
@@ -101,16 +101,16 @@ The live link can be found here - https://artemigo.github.io/portfolio-project-1
 
 - The text for the Home page was taken from [Google fonts](https://fonts.google.com/specimen/Kumbh+Sans)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Instructions on how to implement @media were taken from [FreeCodeCamp] (https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
+- Instructions on how to implement @media were taken from [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
 
 ### Media
 
 - The photo used on the home page is made by me
 - The images used for the about page were taken from:
-[Covalen logo](https://covalensolutions.com/img/graphics/logo-grey.svg)
-[UCD logo](https://www.ucd.ie/professionalacademy/assets/images/design/logo.png)
-[CI logo](https://avatars.githubusercontent.com/u/16867170?s=280&v=4)
-[Country flags](https://www.worldatlas.com/r/w768/upload/9e/9d/d9/country-flags-green.jpg)
+[Covalen logo](https://covalensolutions.com/img/graphics/logo-grey.svg),
+[UCD logo](https://www.ucd.ie/professionalacademy/assets/images/design/logo.png),
+[CI logo](https://avatars.githubusercontent.com/u/16867170?s=280&v=4),
+[Country flags](https://www.worldatlas.com/r/w768/upload/9e/9d/d9/country-flags-green.jpg),
 [LaserMaxx logo](https://lazermax.lv/wp-content/uploads/2016/11/lazermax-logo.png)
 
 
