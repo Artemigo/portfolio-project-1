@@ -95,6 +95,7 @@ The live link can be found here - https://artemigo.github.io/portfolio-project-1
 - Instructions on how to implement @media were taken from [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
 - Instructions and inspiration for cards for the about page taken from [Codepen](https://codepen.io/arti2002/pen/LYRxeOG)
 - Instructions for CSS were taken from [W3Schools](https://www.w3schools.com/css/)
+- Mockup website used [Techsini](https://techsini.com/multi-mockup/)
 
 ### Media
 
