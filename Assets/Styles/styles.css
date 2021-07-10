@@ -561,6 +561,102 @@ textarea {
         overflow: scroll;
         margin-top: 20px;
         margin-bottom: 20px;
+        height: 400px;
+        width: 90vw;
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .about__details1 {
+        position: relative;
+        text-align: top;
+        overflow: hidden;
+        padding: 8px;
+        height: 30%;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__image1 {
+        transition: all 0.3s ease-out;
+        position: relative;
+        overflow: hidden;
+        height: 70%;
+        float: bottom;
+        width: 100%;
+    }
+
+    .about__details2 {
+        position: relative;
+        text-align: top;
+        overflow: hidden;
+        padding: 8px;
+        height: 30%;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__image2 {
+        transition: all 0.3s ease-out;
+        position: relative;
+        overflow: hidden;
+        height:70%;
+        float: bottom;
+        width: 100%;
+    }
+
+    .about__container h1{
+        color: #344055;
+        font-size: 20px;
+    }
+
+    .about__container h2{
+        color:white;
+        font-size: 18px;
+    }
+
+    .about__container h3{
+        color: green;
+        font-size: 17px;
+    }
+
+    .about__container p{
+        color: darkslateblue;
+        font-size: 15px;
+    }
+
+    .info h2 {
+        color:yellow;
+    }
+
+    .info {
+        background: rgba(65, 64, 64, 0.9);
+        transition: all 0.3s ease-out;
+        transform: translateX(-100%);
+        position: absolute;
+        line-height: 1.8;
+        text-align: center;
+        font-size: 18px;
+        cursor: no-drop;
+        color: #FFF;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .about__container{
+        box-shadow: 0 15px 30px 1px grey;
+        background: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        border-radius: 5px;
+        overflow: scroll;
+        margin-top: 20px;
+        margin-bottom: 20px;
         height: 550px;
         width: 90vw;
         padding-bottom: 0;
@@ -647,3 +743,5 @@ textarea {
         top: 0;
     }
 }
+
+
