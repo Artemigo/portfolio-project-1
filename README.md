@@ -93,7 +93,7 @@ The live link can be found here - https://artemigo.github.io/portfolio-project-1
 - The text for the Home page was taken from [Google fonts](https://fonts.google.com/specimen/Kumbh+Sans)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Instructions on how to implement @media were taken from [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/)
-- Parts of code for cards for the about page taken from [Codepen](https://codepen.io/arti2002/pen/LYRxeOG)
+- Instructions and inspiration for cards for the about page taken from [Codepen](https://codepen.io/arti2002/pen/LYRxeOG)
 - Instructions for CSS were taken from [W3Schools](https://www.w3schools.com/css/)
 
 ### Media
