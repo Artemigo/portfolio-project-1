@@ -237,7 +237,7 @@ body {
 }
 /* Footer CSS */
 .footer__container {
-    position:fixed;
+    position:sticky;
     bottom: 0;
     width: 100%;
     background-color: #141414;
