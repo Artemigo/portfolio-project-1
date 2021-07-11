@@ -229,8 +229,11 @@ Used Ctrl+Shift+N so the test is accurate and no cached data is stored. Screensh
 - I wish to check if there are any changes, such as new skills or education/work experience.
     > The Main and About page, as well as CV that is available via the download button is constantly being updated.
 
--I would like to get in touch with the website owner (potential future employee)
+- I would like to get in touch with the website owner (potential future employee)
     > Like the new user, returning users have the same options when it comes to contacting me, via the contact form or via the social media links. 
+
+
+[Back to Table of contents](#table-of-contents)
 
 ---
 ## Issues found during site development
