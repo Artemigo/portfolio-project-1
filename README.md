@@ -255,9 +255,9 @@ Made a minor adjustment to the footer container by changing the position from fi
  At the and of the project I used two websites to validate a code
  
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS
-    (./Assets/readme_img/CSS.png)
+    [CSS_results](./Assets/readme_img/CSS.png)
  * [Nu Html Checker](https://validator.w3.org/) to test HTML
-    (./Assets/readme_img/HTML.png)
+    [HTML_results](./Assets/readme_img/HTML.png)
 
 
 [Back to Table of contents](#table-of-contents)
