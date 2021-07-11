@@ -84,9 +84,9 @@ The website is designed to be easy and user-friendy on all type of devices. On d
 ## Wireframes
 
 I used balsamiq to create a wireframes.
-###Desktop
+### Desktop
 ![WireframeDesktop](./Assets/readme_img/desktop.png)
-###Mobile
+### Mobile
 ![WireframeMobile](./Assets/readme_img/mobile.png)
 
 ## Surface
