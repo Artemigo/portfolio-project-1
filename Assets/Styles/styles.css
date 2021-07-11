@@ -237,7 +237,7 @@ body {
 }
 /* Footer CSS */
 .footer__container {
-    position:sticky;
+    position:absolute;
     bottom: 0;
     width: 100%;
     background-color: #141414;
@@ -279,20 +279,23 @@ body {
     color: white;
 }
 
+.footer__container--about {
+    position:sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 768px) {
     .footer__container {
         position: sticky;
-        top:100%;
-        bottom: 0;
-        width: 100%;
-        background-color: #141414;
-        margin-top: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-sizing: content-box;
-        padding:auto;
     }
 }
 
@@ -315,7 +318,6 @@ body {
     box-shadow: 0px 0px 20px rgb(216, 229, 238);
     background-color: white;
     border-radius: 8px;
-    margin-bottom: 20px;
 }
 
 .form--group {
@@ -354,6 +356,8 @@ textarea {
 .submit__btn:hover{
     background-color:rgb(103, 228, 134) ;
 }
+
+
 
 /* Success */
 .main__success{
@@ -422,14 +426,13 @@ textarea {
 
 
 /*About page */
-
 .about__container{
 	box-shadow: 0 15px 30px 1px grey;
 	background: rgba(255, 255, 255, 0.90);
 	text-align: center;
 	border-radius: 5px;
 	overflow: hidden;
-	margin: 5em auto;
+	margin: 3em auto;
 	height: 300px;
 	width: 700px;
     line-height: 1.6;
@@ -579,7 +582,6 @@ textarea {
 
     .about__details1 {
         position: relative;
-        text-align: top;
         overflow: hidden;
         padding: 8px;
         height: 30%;
@@ -599,7 +601,6 @@ textarea {
 
     .about__details2 {
         position: relative;
-        text-align: top;
         overflow: hidden;
         padding: 8px;
         height: 30%;
@@ -675,7 +676,6 @@ textarea {
 
     .about__details1 {
         position: relative;
-        text-align: top;
         overflow: hidden;
         padding: 8px;
         height: 25%;
@@ -695,7 +695,6 @@ textarea {
 
     .about__details2 {
         position: relative;
-        text-align: top;
         overflow: hidden;
         padding: 8px;
         height: 25%;
@@ -771,7 +770,6 @@ textarea {
 
     .about__details1 {
         position: relative;
-        text-align: top;
         overflow: hidden;
         padding: 8px;
         height: 25%;
@@ -791,7 +789,6 @@ textarea {
 
     .about__details2 {
         position: relative;
-        text-align: top;
         overflow: hidden;
         padding: 8px;
         height: 25%;
