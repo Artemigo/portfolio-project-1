@@ -85,9 +85,9 @@ The website is designed to be easy and user-friendy on all type of devices. On d
 
 I used balsamiq to create a wireframes.
 ### Desktop
-![WireframeDesktop](./Assets/readme_img/desktop.png)<!-- .element height="50%" width="50%" -->
+![WireframeDesktop](./Assets/readme_img/desktop.png)
 ### Mobile
-![WireframeMobile](./Assets/readme_img/mobile.png){:height="50%" width="50%"}
+![WireframeMobile](./Assets/readme_img/mobile.png)
 
 ## Surface
 
