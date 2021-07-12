@@ -311,6 +311,8 @@ ___
 
 * [Covalen logo](https://covalensolutions.com/img/graphics/logo-grey.svg),
 
+* [Rkg logo](http://www.rkg.lv/site/wp-content/uploads/2019/04/Forma.gif),
+
 * [UCD logo](https://www.ucd.ie/professionalacademy/assets/images/design/logo.png),
 
 * [Country flags](https://www.worldatlas.com/r/w768/upload/9e/9d/d9/country-flags-green.jpg),
