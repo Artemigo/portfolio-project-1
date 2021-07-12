@@ -293,10 +293,8 @@ body {
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-height: 768px) {
     .footer__container {
-        position: sticky;
-    }
 }
 
 
