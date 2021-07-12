@@ -295,8 +295,8 @@ body {
 
 @media screen and (max-height: 768px) {
     .footer__container {
-    	position:absolute;
-	}
+        position: sticky;
+    }
 }
 
 
